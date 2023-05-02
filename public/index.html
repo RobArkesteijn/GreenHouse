@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="weblogo.png" />
+      <link rel="stylesheet" href="styles/styles.css">
+      <script src="https://kit.fontawesome.com/ff6fb3a53c.js" crossorigin="anonymous"></script>
+      <script src="jquery-3.6.4.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+      <script src="dist/index.js"></script>
+      <title>GreenHouse</title>
+      <meta
+      name="description"
+      content="This is a website for a fake company named GreenHouse. This website has been made with the purpose of practising JQuery and staying in touch with the old school way of making websites."
+    />
+  </head>
+  <body>
+      <div class="foreground"></div>
+      <header class="header nav-down">
+        <img src="menu.png" alt="Menu for the website" class="menu-icon">
+        <img src="logo.png" alt="The Logo of the website, named GreenHouse" class="header-logo">
+        <div class="basket">
+          <div class="product-amount"></div>
+          <img src="shopping-basket.png" alt="Basket for products" class="shopping-icon">
+        </div>
+      </header>
+      <div class="sidemenu">
+        <div class="sidemenu-user">
+          <i class="fa-solid fa-circle-user user-icon"></i>
+          <h4 class="sidemenu-user-welcome">Welcome User</h4>
+        </div>
+        <ul class="sidemenu-list">
+          <li class="sidemenu-list-item">House</li>
+          <li class="sidemenu-list-item">Garden</li>
+          <li class="sidemenu-list-item">About Us</li>
+          <li class="sidemenu-list-item">Contact</li>
+        </ul>
+      </div>
+      <div class="shoppingmenu">
+        <div class="shoppingmenu-header">
+          <img src="shopping-basket.png" alt="Basket for products" class="shoppingmenu-title">
+        </div>
+        <div class="shoppingmenu-list">
+        </div>
+        <div class="shoppingmenu-footer">
+          <button class="shoppingmenu-button">Checkout</button>
+        </div>
+      </div>
+      <div class="sidemenu-border"></div>
+      <div class="shoppingmenu-border"></div>
+      <div class="notification-box">
+        <div class="notification"></div>
+        <div class="loading-bar"></div>
+      </div>
+      <main class="main">
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-1.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 1</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$11,99</h5>
+            <button class="main-container-button plant1">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-2.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 2</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil  nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$13,99</h5>
+            <button class="main-container-button plant2">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-3.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 3</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$8,99</h5>
+            <button class="main-container-button plant3">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-4.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 4</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil  nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$15,99</h5>
+            <button class="main-container-button plant4">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-5.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 5</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$12,99</h5>
+            <button class="main-container-button plant5">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-6.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 6</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$5,99</h5>
+            <button class="main-container-button plant6">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-7.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 7</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$20,99</h5>
+            <button class="main-container-button plant7">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-8.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 8</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$11,99</h5>
+            <button class="main-container-button plant8">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-9.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 9</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$16,99</h5>
+            <button class="main-container-button plant9">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-10.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 10</h3>
+             <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$25,99</h5>
+            <button class="main-container-button plant10">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-11.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 11</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$21,99</h5>
+            <button class="main-container-button plant11">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-12.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 12</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$9,99</h5>
+            <button class="main-container-button plant12">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-13.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 13</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$18,99</h5>
+            <button class="main-container-button plant13">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-14.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 14</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$23,99</h5>
+            <button class="main-container-button plant14">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-15.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 15</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$29,99</h5>
+            <button class="main-container-button plant15">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="main-container-box">
+            <img src="images/plant-16.jpg" alt="Image of the first plant" class="main-container-image">
+            <h3 class="main-container-title">Plant 16</h3>
+            <p class="main-container-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore similique libero nihil nulla. Facilis libero fugit fuga cum fugiat.</p>
+            <h5 class="main-container-price">$13,99</h5>
+            <button class="main-container-button plant16">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <h5 class="footer-disclaimer">Website made by Rob Arkesteijn</h5>
+      </footer>
+  </body>
+</html>
